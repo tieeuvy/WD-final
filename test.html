@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+	.box{
+		width: 50px;height: 50px;background-color: red;animation-name: test;animation-duration: 4s;animation-direction: alternate-reverse;animation-iteration-count: 2
+	}	
+	@keyframes test{
+		0%{background-color: red;position: absolute;left: 0;top: 0;width: 100px;height: 100px}
+		25%{background-color: green;position: absolute;left: 500px;top: 0;width: 150px;height: 150px}
+		50%{background-color: blue;position: absolute;left: 500px;top: 600px;width: 180px;height: 180px	}
+		75%{background-color: brown;position: absolute;left: 0;top: 600px;width: 80px;height: 80px}
+		100%{background-color: black;position: absolute;left: 0;top: 0;width: 50px;height: 50px}
+	}
+	</style>
+</head>
+
+<body>
+	<div class="box"></div>
+</body>
+</html>
